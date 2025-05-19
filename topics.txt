@@ -9,3 +9,8 @@ HTML
    Tables
    Block vs inline
    semantic elements
+   icons, symbol codes
+   media
+   forms
+   form validation
+   HTML5
