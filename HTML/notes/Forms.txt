@@ -1,0 +1,50 @@
+Forms: Forms are used to collect data from the user.
+eg: login, registration,feedback , application, subscription,contact, enquiry, payments, captcha , search , leads etc..,
+Forms in HTML uses 'form' element.For a Functional Form, we need inputs, buttons and validations.
+Input : input is a self closing which contains following attributes
+  type: defines the type of the input element (based on data it receives)
+  placeholder : defines the dummy text the input holds until user enters the value.
+  value : defines the value of input element. usually user enters it but sometimes we can prefill it 
+  id: used to identify the element the element uniquely
+  name : defines the name the input element carries when its value is submitted
+ 
+ <input type="text" placeholder="Enter your name" id="na" name="nam">
+
+  label : it is used to make the user understand what kind of data needs to be entered in input
+  label contains 'for' attribute which needs to connected with the input using input id.
+  <label for="na">Enter name:</label> 
+  <input type="text" placeholder="Enter your name" id="na" name="nam">
+
+  Button is used to make user clickable actions . it contains different types such as
+   type="button"   -- general button
+   type="submit"   -- submitting the form
+   type="reset"    -- resetting the form
+
+form contains attributes such as
+   action -- it contains path/file to which the submitted data will go
+   method -- GET -- default way of sending the data and the data will be visible in URL
+          -- POST -- secure way of sending the data and data will not be shown in URL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
