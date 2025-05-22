@@ -25,6 +25,41 @@ form contains attributes such as
    method -- GET -- default way of sending the data and the data will be visible in URL
           -- POST -- secure way of sending the data and data will not be shown in URL
 
+different types of Inputs:
+   1. text -- it is used to enter textual data such as usernames, first and last names etc..,
+   2. email -- it is used to enter emails . By default it won't accept without @
+   3. password -- it is used to enter secret data such as passwords, keys, financial data . 
+   4. number -- it is used to enter only numbers like age, phone number etc..,
+   5. date -- it is used to select specific date like booking apps etc..,
+   6. time -- it is used to select specific time like alarms, countdowns, slots etc..,
+   7. datetime-local -- it is used to select date and time together like booking slots,detailed DOB etc..,
+   8. color -- it is used to select specific color like drawing boards etc..,
+   9. hidden -- it is used to make the input hide with a value. when form is submitted, this data also gets submitted without user's knowledge
+   10. file -- it is used to accept/upload files like resume, images etc..,
+       it has an attribute 'accept' to accept specific type 
+   11. url -- it is used to select /enter specific URL. eg: social media links
+   12. search -- it is used to select/enter searchable terms. It submits the form on enter.
+   13. button/submit/reset : These are similiar to buttons of specific type.
+   14. textarea: it is used to accept heavy informations or multiple rows of data
+       we can control width and height of textarea using cols and rows attribute
+    15. radio : it is used to accept single choice. by default checked option will select it . 
+    All the radio inputs of similar purpose should have same name. radio buttons can be triggered by label
+    16.. checkbox :it is used to accept multiple choices. By default checked option will select it. All the checkboxes of similar purpose should have same name. These are also triggered by label
+    17. Dropdowns:
+       These are used to select single or multiple choices from large set of choices.
+       They use 'select' element. it contains childern element like 'option' with value.
+
+       All options can be combined using optgroup
+       , it can havel label attribute with a value
+
+       multiple flag is used to select multiple choices and size defines the size of select box
+
+
+
+
+
+
+
 
 
 
