@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Registration Form</h2>
-    <form action="main.py" method="get">
+    <!-- <form action="main.py" method="get">
         <div>
             <label for="na">Name:*</label>
             <input type="text" id="na" value="prasad" readonly name="na" required minlength="6" maxlength="10">
@@ -29,6 +29,12 @@
         </div>
         <button type="submit">submit</button>
     </form>
-    <p>All * symbols are required</p>
+    <p>All * symbols are required</p> -->
+   <form action="main.java">
+    <input type="text" placeholder="Enter name" name="name" pattern="[A-Za-z0-9]{,3}">
+    <input type="number" name="" id="" pattern="[0-9]{10}">
+    <input type="email" placeholder="enter email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}">
+    <button type="submit">submit</button>
+   </form>
 </body>
 </html>

@@ -54,6 +54,34 @@ different types of Inputs:
 
        multiple flag is used to select multiple choices and size defines the size of select box
 
+Form Validation:
+   Forms can be validated in html using simple attributes such as 
+   required: it is used to make the input field mandatory
+   readonly : it is used to make the input field only readable. it cannot be modified but it's will value will be submitted
+   disabled : it is used to make the input disabled. it cannot be changed or submitted
+   min/max : it is used to enter the input that has range with min or max value. it will accept values of only that range
+   minlength/maxlength : it is used to specify minimum or maximum number of characters we can use in a text 
+   pattern: patterns are used to enter specific regular expressions
+   Regular expressions are strings that are used to validate certain pattern in a string. it uses wide range of symbols that specifies certain meaning
+      [] -- it is used to specify a group 
+         --[abc] -->a or b or c
+         --[a-z] --> anything from lowercase alphabets
+         --[A-Za-z0-9] --> any character uppercase or lowercase or digit
+      {} -- it is used to specify a range
+         --{3} --> exactly 3 characters
+         --{3,} --> atleast 3 characters
+         --{,3} --> upto 3 characters
+         --{3,8} --> from 3 to 8 characters
+
+      \w -- words , \s -- space , \d -- digits
+      * -- zero or more
+        -->ab* -- a , ab,abb,abbb,
+      + -- one or more
+        -->ab+ -- ab, abb,abbb.......
+      ? -- zero or one
+        -->  ab? -- a, ab,
+
+
 
 
 
